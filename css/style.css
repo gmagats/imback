@@ -1,0 +1,23 @@
+header {
+  color: red;
+}
+
+body {
+  font-size: 20px;
+}
+body div.proba {
+  font-size: 10px;
+}
+body h1 {
+  color: red;
+}
+body p.text {
+  font: 14px;
+  color: rgb(240, 0, 0);
+}
+body .block {
+  background-color: royalblue;
+  padding: 10px;
+  margin: 20px;
+  font-size: 30px;
+}

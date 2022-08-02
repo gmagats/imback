@@ -1,0 +1,23 @@
+@import "_header";
+
+body {
+	font-size: 20px;
+
+	div.proba {
+		font-size: 10px;
+	}
+	h1 {
+		color:red;
+	}
+	p.text{
+		font: 14px;
+		color: rgb(240, 0, 0);
+	}
+	.block {
+		background-color: royalblue;
+		padding: 10px;
+		margin: 20px;
+		font-size: 30px;
+	}
+}
+
