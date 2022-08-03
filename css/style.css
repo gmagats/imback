@@ -9,15 +9,22 @@ body div.proba {
   font-size: 10px;
 }
 body h1 {
-  color: red;
+  color: #fff;
 }
 body p.text {
   font: 14px;
-  color: rgb(240, 0, 0);
+  color: #000;
+}
+body p.text span {
+  color: red;
+  text-decoration: underline;
 }
 body .block {
   background-color: royalblue;
-  padding: 10px;
+  padding: 10px 30px;
   margin: 20px;
   font-size: 30px;
+}
+body img {
+  width: 400px;
 }
