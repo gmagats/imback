@@ -10,13 +10,77 @@
 </head>
 
 <body>
+
 	<h1 class="block">Hello VS Code!!!</h1>
 	<p class="text">
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident numquam magnam quod, aliquid recusandae velit
 		id in pariatur odit illo impedit ex laborum ullam dicta delectus suscipit optio nesciunt ipsa?<br><br>
 		<span>Shit can happen...</span>
 	</p>
-	<img src="/img/sumka.jpg" alt="">
+	<img src="/img/sumka.jpg" alt="Сумочка">
+
+	<form action="#" method="post" type="multipart/form-data">
+
+		<div class="box-form">
+			<p>Авторизація</p>
+			<p><input tabindex="1" placeholder="Login" type="text" name="username" value=""></p>
+			<p><input tabindex="2" placeholder="Password" type="password" name="userpass" value=""></p>
+		</div>
+
+		<div class="box-form">
+			<p>Улюблене пиво</p>
+			<p><input tabindex="3" checked type="radio" name="beer" value="lager"> Світле пиво</p>
+			<p><input tabindex="3" type="radio" name="beer" value="dark"> Темне пиво</p>
+		</div>
+
+		<div class="box-form">
+			<p>Улюблене пиво 2</p>
+			<p><input tabindex="4" type="radio" name="beer2" value="lager"> Світле пиво</p>
+			<p><input tabindex="4" checked type="radio" name="beer2" value="dark"> Темне пиво</p>
+		</div>
+
+		<div class="box-form">
+			<p>Рухоме майно</p>
+			<p><input tabindex="5" checked type="checkbox" name="avto" value="yes"> Наявність авто</p>
+			<p><input tabindex="6" type="checkbox" name="avto2" value="yes"> Наявність авто 2</p>
+			<p><input tabindex="7" type="checkbox" name="avto3" value="yes"> Наявність авто 3</p>
+			<p><input tabindex="8" disabled type="checkbox" name="avto4" value="yes"> Наявність авто 4</p>
+		</div>
+
+		<div class="box-form">
+			<p>Додати фото</p>
+			<p><input tabindex="9" type="file" name="photo"></p>
+		</div>
+
+		<div class="box-form">
+			<p>Додаткова інформація</p>
+			<p><textarea tabindex="10" name="text"></textarea></p>
+		</div>
+
+		<div class="box-form">
+			<p>Улюблені кольори</p>
+			<select tabindex="11" multiple name="color">
+				<option value="red">Червоний</option>
+				<option value="blue">Синій</option>
+				<option selected value="yellow">Жовтий</option>
+			</select>
+		</div>
+
+		<div class="box-form">
+			<p>Колір волосся</p>
+			<select tabindex="12" name="color">
+				<option value="red">Червоний</option>
+				<option selected value="blue">Синій</option>
+				<option value="yellow">Жовтий</option>
+			</select>
+		</div>
+
+		<div class="box-form">
+			<button tabindex="13" type="submit">Send</button>
+			<button tabindex="14" type="reset">Reset</button>
+		</div>
+	</form>
+
 </body>
 
 </html>

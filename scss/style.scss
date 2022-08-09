@@ -1,13 +1,16 @@
-@import "_header";
+@import "_stylenull";
 
 body {
 	font-size: 20px;
-
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans";
 	div.proba {
 		font-size: 10px;
 	}
 	h1 {
 		color: #fff;
+	}
+	p {
+		margin: 20px 0;
 	}
 	p.text {
 		font: 14px;
@@ -19,11 +22,14 @@ body {
 	}
 	.block {
 		background-color: royalblue;
-		padding: 10px 30px;
-		margin: 20px;
+		padding: 10px 0 10px 30px;
+		margin: 5px 0 30px;
 		font-size: 30px;
 	}
 	img {
 		width: 400px;
+	}
+	div.box-form {
+		margin: 50px 0;
 	}
 }
